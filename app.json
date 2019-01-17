@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/messages/messages",
+    "pages/profile/profile",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3a4861",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "本地生活",
+    "backgroundColor": "#bcc0c9",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "消息",
+        "iconPath": "assets/message.png",
+        "selectedIconPath": "assets/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/profile.png",
+        "selectedIconPath": "assets/profile-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

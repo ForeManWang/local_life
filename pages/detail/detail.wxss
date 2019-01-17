@@ -1,0 +1,83 @@
+.slides {
+  height: 580rpx;
+}
+
+.slides image {
+  min-width: 100%;
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  color: #567;
+  font-size: 24rpx;
+}
+
+.heading .name {
+  font-size: 40rpx;
+  color: #234;
+}
+
+.heading .score {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  padding: 0 10rpx;
+  background-color: #ee523d;
+  border-radius: 30rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+}
+
+.introduction {
+  margin-top: 20rpx;
+  padding: 30rpx;
+  background-color: #fff;
+  color: #456;
+  font-size: 24rpx;
+  line-height: 2;
+}
+
+.comments {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  color: #345;
+  font-size: 24rpx;
+}
+
+.comments .item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.comments .item .name {
+  margin-top: 20rpx;
+  font-size: 36rpx;
+}
+
+.comments .item .date {
+  align-self: flex-end;
+  margin: -40rpx 0 20rpx;
+  color: #567;
+}
+
+.comments .item .rating {
+  position: absolute;
+  top: 20rpx;
+  right: 10rpx;
+  color: #ee523d;
+}
+
+.comments .item image {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 10rpx;
+}

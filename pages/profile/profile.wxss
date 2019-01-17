@@ -1,0 +1,44 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400rpx;
+  background-color: #3a4861;
+}
+
+.avatar image {
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10rpx #777f92;
+}
+
+.cells {
+  margin-top: 20rpx;
+}
+
+.cells .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  background-color: #fff;
+  font-size: 30rpx;
+}
+
+.cells .item::after {
+  content: '';
+  display: inline-block;
+  height: 10rpx;
+  width: 10rpx;
+  border: 0 solid #ccc;
+  border-width: 3rpx 3rpx 0 0;
+  transform: matrix(1, 1, -1, 1, 0, 0);
+}
+
+.cells .divider {
+  height: 20rpx;
+  box-shadow: inset 0 1rpx 2rpx #eee;
+}

@@ -1,0 +1,17 @@
+<include src="/includes/search-bar.wxml"/>
+
+<view class="cells">
+  <navigator class="item" wx:for="{{shops}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+    <image src="{{item.images[0]}}" mode="aspectFill"/>
+    <view class="meta">
+      <text class="name">{{item.name}}</text>
+      <text class="phone">电话：{{item.phone || 'none'}}</text>
+      <text class="address">地址：{{item.address}}</text>
+      <text class="hours">营业时间：{{item.businessHours}}</text>
+    </view>
+    <view class="score">{{item.score || 'none'}}</view>
+  </navigator>
+</view>
+
+<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
+<view wx:else class="loadmore">没有更多内容了</view>

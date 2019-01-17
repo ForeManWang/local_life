@@ -1,0 +1,14 @@
+@import 'venders/weui';
+
+.searchbar-result {
+  margin-top: 0;
+  font-size: 28rpx;
+}
+
+.searchbar-result::before {
+  display: none;
+}
+
+page {
+  background-color: #f0f0f0;
+}

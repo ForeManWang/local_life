@@ -1,0 +1,19 @@
+.cells {
+  margin-top: 20rpx;
+}
+
+.cells .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  background-color: #fff;
+  font-size: 30rpx;
+}
+
+.cells .divider {
+  height: 20rpx;
+  box-shadow: inset 0 1rpx 2rpx #eee;
+}

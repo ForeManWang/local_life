@@ -1,0 +1,27 @@
+<view class="cells">
+  <view class="item">
+    <text>个人资料</text>
+    <switch/>
+  </view>
+  <view class="item">
+    <text>我的优惠券</text>
+    <switch/>
+  </view>
+  <view class="divider"></view>
+  <view class="item">
+    <text>常见问题</text>
+    <switch/>
+  </view>
+  <view class="item">
+    <text>使用条款</text>
+    <switch/>
+  </view>
+  <view class="item">
+    <text>隐私权政策</text>
+    <switch/>
+  </view>
+  <view class="item">
+    <text>联系客服</text>
+    <switch/>
+  </view>
+</view>
