@@ -14,8 +14,3 @@
   </view>
   <view class="weui-search-bar__cancel-btn" hidden="{{!searchShowed}}" bindtap="hideSearchHandle">取消</view>
 </view>
-<!-- <view class="weui-cells searchbar-result" wx:if="{{searchText}}">
-  <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">暂时未实现</view>
-  </navigator>
-</view> -->
