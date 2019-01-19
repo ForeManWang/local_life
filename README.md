@@ -12,27 +12,27 @@
 
 **首页index：**
 
-<img src="/assets/index.png">
+<img src="/assets/index.png" alt="index"  style="display: inline;">
 
 **消息页：message**
 
-<img src="/assets/moreMessage.png">
+<img src="/assets/moreMessage.png" alt="moreMessage"  style="display: inline;">
 
 **个人中心：profile**
 
-<img src="/assets/person.png">
+<img src="/assets/person.png" alt="person"  style="display: inline;">
 
 **商铺列表：list**
 
-<img src="/assets/list.png">
+<img src="/assets/list.png" alt="list"  style="display: inline;">
 
 **商铺详情：detail**
 
-<img src="/assets/detail.png">
+<img src="/assets/detail.png" alt="detail"  style="display: inline;">
 
 **设置：settings**
 
-<img src="/assets/settings.png">
+<img src="/assets/settings.png" alt="settings"  style="display: inline;">
 
 **点击切换大图预览功能：wx.previewImage()**
 
