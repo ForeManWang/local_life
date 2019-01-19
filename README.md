@@ -36,4 +36,4 @@
 
 **点击切换大图预览功能：wx.previewImage()**
 
-<img src="/assets/previewImage.png">
+<img src="/assets/previewImage.png" alt="previewImage" style="display: inline;">
